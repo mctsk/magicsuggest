@@ -403,6 +403,13 @@
         };
 
         /**
+         * Refreshs the current selection
+         */
+        this.reload = function () {
+            self._renderSelection();
+        };
+        
+        /**
          * Collapse the drop down part of the combo
          */
         this.collapse = function()
